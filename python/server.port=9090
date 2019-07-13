@@ -1,0 +1,135 @@
+########### Application Metadata ############
+spring.application.name=referral
+server.servlet.context-path=/referral
+server.port=9090
+
+############## Application Access Logs Config ##############
+server.tomcat.max-threads=${/config/template/tomcat/max/threads}
+server.tomcat.accesslog.enabled=${/config/template/tomcat/accesslog/enabled}
+server.tomcat.accesslog.directory=${/config/template/tomcat/accesslog/directory}
+server.tomcat.accesslog.file-date-format=.yyyy-MM-dd
+server.tomcat.accesslog.prefix=template_access_log
+server.tomcat.accesslog.pattern=%h %l %u %t "%r" %I %s %b %F %D
+server.tomcat.accesslog.suffix=.log
+server.tomcat.accesslog.rotate=true
+
+########### AWS Parameter Store Config ##################
+cloud.aws.credentials.accessKey=${AWS_ACCESS_KEY}
+cloud.aws.credentials.secretKey=${AWS_SECRET_KEY}
+cloud.aws.region=${AWS_REGION}
+awsParameterStorePropertySource.enabled=true
+awsParameterStorePropertyContextPath=/config/template/
+
+########### Property Mapping with AWS Parameter Store Config (For Readable Names) #############
+
+############## Template Defaults #################
+template.baseUrl=${/config/template/base/url}
+template.mailerPath=${/config/template/mailer/path}
+template.paytm.promo=${/config/template/enable/paytm/promo}
+template.http.protocol=${/config/template/http/protocol}
+template.cdn.path=${/config/template/cdn/path}
+template.image.bucket=${/config/template/image/bucket}
+template.transactional.image=${/config/template/transactional/image}
+template.transactional.image.app=${/config/template/transactional/image/app}
+template.android.app.link=${/config/template/android/app/link}
+template.fabhotels.bank.name=${/config/template/fabhotels/bank/name}
+template.fabhotels.bank.account=${/config/template/fabhotels/bank/account}
+template.fabhotels.bank.ifsc=${/config/template/fabhotels/bank/ifsc}
+template.fabhotels.bank.pan=${/config/template/fabhotels/bank/pan}
+template.fabhotels.cin=${/config/template/fabhotels/cin}
+template.fabhotels.address.registered=${/config/template/fabhotels/address/registered}
+template.fabhotels.address.corporate=${/config/template/fabhotels/address/corporate}
+
+############## Loyalty Constants ####################
+cdn.membership.icon=${/config/template/cdn/membership/icon}
+cdn.membership.banner=${/config/template/cdn/membership/banner}
+cdn.booking.voucher.icon=${/config/template/cdn/transactional/booking/icons}
+cdn.booking.voucher.banner=${/config/template/cdn/transactional/booking/banners}
+newuser.points=${/config/template/newuser/points}
+referral.points=${/config/template/referral/points}
+
+############### Mail Constants ##################
+mail.bccReceiver=${/config/template/mail/bccReceiver}
+mail.fromName=${/config/template/mail/fromName}
+mail.fabhotels.booking=${/config/template/mail/fabhotels/booking}
+mail.attachment.name=${/config/template/mail/attachment/name}
+mail.isVoucherEnabled=${/config/template/mail/voucher/enabled}
+helpline.corporate=${/config/template/mail/helpline/corporate}
+helpline.default=${/config/template/mail/helpline/default}
+helpline.travelagent=${/config/template/mail/helpline/travelagent}
+mail.btcBookingInformationReceivers=${/config/template/mail/receivers/btc/booking}
+mail.checkoutInvoiceReceivers=${/config/template/mail/receivers/checkout/invoice}
+mail.inventoryReceiver=${/config/template/mail/receivers/inventory}
+mail.sbt.onboarding=${/config/template/mail/sbt/onboarding}
+mail.attachment.s3.path=${/config/template/mail/attachment/s3/path}
+
+################### Microservice End Points #################
+microservice.url.booking=${/config/template/url/booking}
+microservice.url.booking.search=${/config/template/url/booking/search}
+microservice.url.user=${/config/template/url/user}
+microservice.url.catalog=${/config/template/url/catalog}
+microservice.url.audit=${/config/template/url/audit}
+microservice.url.corporate=${/config/template/url/corporate}
+microservice.url.loyalty=${/config/template/url/loyalty}
+microservice.url.points=${/config/template/url/points}
+microservice.url.payment=${/config/template/url/payment}
+microservice.url.report=${/config/template/url/report}
+microservice.url.coupon=${/config/template/url/coupon}
+
+############# Amazon S3 Credentials ##############
+s3.accessKey.template=${/config/template/aws/s3/template/access/key}
+s3.secretKey.template=${/config/template/aws/s3/template/secret/key}
+s3.region.template=${/config/template/aws/s3/template/region}
+s3.bucket.template=${/config/template/aws/s3/template/bucket}
+
+s3.accessKey.invoice=${/config/template/aws/s3/invoice/access/key}
+s3.secretKey.invoice=${/config/template/aws/s3/invoice/secret/key}
+s3.region.invoice=${/config/template/aws/s3/invoice/region}
+s3.bucket.invoice=${/config/template/aws/s3/invoice/bucket}
+
+############ Invoice Change Dates ###############
+inclusions.invoice.date=${/config/template/invoice/inclusions/date}
+18_19.invoice.date=${/config/template/invoice/fy1819/date}
+
+################################# Kafka Consumer Properties ##############################
+bootstrap.servers=${/config/template/kafka/bootstrap/servers}
+group.id=${/config/template/kafka/consumer/groupid}
+auto.offset.reset=${/config/template/kafka/consumer/auto/offset/reset}
+enable.auto.commit=${/config/template/kafka/consumer/auto/commit/enable}
+auto.commit.interval.ms=${/config/template/kafka/consumer/auto/commit/interval}
+session.timeout.ms=${/config/template/kafka/consumer/session/timeout}
+key.deserializer=${/config/template/kafka/consumer/deserializer/key}
+value.deserializer=${/config/template/kafka/consumer/deserializer/value}
+max.poll.records=${/config/template/kafka/consumer/max/poll/records}
+max.partition.fetch.bytes=${/config/template/kafka/consumer/max/partition/fetch/bytes}
+fetch.max.bytes=${/config/template/kafka/consumer/fetch/max/bytes}
+
+########################## Kafka Producer Property ######################
+request.required.acks=${/config/template/kafka/producer/request/required/acks}
+key.serializer=${/config/template/kafka/producer/serializer/key}
+value.serializer=${/config/template/kafka/producer/serializer/value}
+num.partitions=${/config/template/kafka/producer/partitions}
+max.request.size=${/config/template/kafka/producer/maz/request/size}
+
+message.max.bytes=${/config/template/kafka/producer/max/message/bytes}
+
+################################# Kafka Topics ##################################
+kafka.sms.topic=${/config/template/kafka/topic/sms}
+kafka.email.topic=${/config/template/kafka/topic/email}
+kafka.template.topic=${/config/template/kafka/topic/template}
+kafka.bookingmetadata.topic=${/config/template/kafka/topic/bookingmetadata}
+kafka.topic.commission.invoice=${/config/template/kafka/topic/commissioninvoice}
+kafka.commission.invoice.update.topic=${/config/template/kafka/topic/commissioninvoiceupdate}
+
+########################### Poll Intervals #######################
+kafka.consumer.poll.interval=${/config/template/kafka/poll/interval}
+kafka.commission.consumer.poll.interval=${/config/template/kafka/poll/interval/commission}
+
+########################## Vip Cancellation Email Alert ##############
+mail.vipbooking.cancel.reciver=${/config/template/vip/cancellation/mail/receiver}
+
+template.app.link = ${/config/template/app/link}
+template.transactional.payment_reminder = ${/config/template/transactional/payment/reminder}
+
+######################### Soldout Alert Email #####################
+soldout.alert.emails=${/config/template/soldout/alert/emails}
