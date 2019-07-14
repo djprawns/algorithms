@@ -1,25 +1,33 @@
-class Node():
+class Node:
 
 	def __init__(self, data):
 		self.data = data
 		self.next = None
 
 
-class HashMap():
+class HashMap:
 
 	capacity = 10
 	load_factor = 0.7
 
 	def __init__(self):
 		self.bucket = [None]*10
-		self.capacity = capacity
+		self.capacity = HashMap.capacity
 		self.items = 0
 
+	@staticmethod
+	def hashcode(obj):
+		return id(obj)
+
+	def hashkey(self, obj):
+		return HashMap.hashcode(obj) % HashMap.capacity
+
 	def put(self, obj):
-		key = hashkey(obj)
-		if(!self.bucket[key]):
+		key = self.hashkey(obj)
+		if(not self.bucket[key]):
 			self.bucket[key] = Node(obj)
 			return obj
+		# collision here
 		next = self.bucket[key]
 		curr = None
 		while next:
@@ -28,12 +36,9 @@ class HashMap():
 		curr.next = Node(obj)
 		return obj
 
-	def hashkey(self, obj):
-		return self.hashcode(obj) % HashMap.capacity
-
-	def hashcode(obj):
-		return id(obj)
-
 	@classmethod
 	def check_if_rehash_required(cls, capacity):
-		if(cls.load_factor*capacity)
+		if(cls.load_factor*capacity):
+			return True
+		else:
+			return False
