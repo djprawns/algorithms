@@ -9,5 +9,8 @@ def permute(arr, start, end):
 		return
 	for i in xrange(start, end):
 		arr[start], arr[i] = arr[i], arr[start]
+		# permute(list(arr), start+1, end)          # <-------- mutable objects are passed by reference in python, so create a new list
+		# arr[start], arr[i] = arr[i], arr[start]
 		permute(arr, start+1, end)
+		arr[start], arr[i] = arr[i], arr[start]     # <-------- this backtracks the solution
 
