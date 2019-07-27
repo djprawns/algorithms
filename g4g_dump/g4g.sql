@@ -1,4 +1,4 @@
-INSERT INTO public.g4g (post_id,category,url,created_at) VALUES 
+﻿INSERT INTO public.g4g (post_id,category,url,created_at) VALUES 
 (318555,NULL,'https://www.geeksforgeeks.org/flatten-binary-tree-in-order-of-post-order-traversal/','2019-07-04 17:15:01.903')
 ,(318541,NULL,'https://www.geeksforgeeks.org/number-of-ways-to-divide-a-binary-tree-into-two-halves/','2019-07-04 17:15:01.954')
 ,(317777,NULL,'https://www.geeksforgeeks.org/flatten-binary-tree-in-order-of-level-order-traversal/','2019-07-04 17:15:01.962')
@@ -24426,4 +24426,58 @@ INSERT INTO public.g4g (post_id,category,url,created_at) VALUES
 ,(317875,NULL,'https://www.geeksforgeeks.org/python-split-string-on-kth-occurrence-of-character/','2019-07-18 17:55:30.050')
 ,(318131,NULL,'https://www.geeksforgeeks.org/python-ways-to-count-number-of-substring-in-string/','2019-07-18 17:55:30.056')
 ,(317052,NULL,'https://www.geeksforgeeks.org/keras-conv2d-class/','2019-07-18 17:56:31.840')
+,(324935,NULL,'https://www.geeksforgeeks.org/lexicographically-largest-permutation-of-the-array-such-that-ai-ai-1-gcdai-1-ai-2/','2019-07-28 01:29:49.563')
+,(269162,NULL,'https://www.geeksforgeeks.org/arrange-first-n-natural-numbers-such-that-absolute-difference-between-all-adjacent-elements-1/','2019-07-28 01:29:49.764')
+,(321432,NULL,'https://www.geeksforgeeks.org/find-the-number-of-words-of-x-vowels-and-y-consonants-that-can-be-formed-from-m-vowels-and-n-consonants/','2019-07-28 01:29:50.618')
+;
+INSERT INTO public.g4g (post_id,category,url,created_at) VALUES 
+(321683,NULL,'https://www.geeksforgeeks.org/number-of-ways-to-arrange-2n-persons-on-the-two-sides-of-a-table-with-x-and-y-persons-on-opposite-sides/','2019-07-28 01:29:50.627')
+,(293224,NULL,'https://www.geeksforgeeks.org/check-whether-n-is-a-dihedral-prime-number-or-not/','2019-07-28 01:29:56.389')
+,(235232,NULL,'https://www.geeksforgeeks.org/number-of-unique-permutations-starting-with-1-of-a-binary-string/','2019-07-28 01:29:56.783')
+,(141389,NULL,'https://www.geeksforgeeks.org/k-difference-permutation/','2019-07-28 01:29:58.383')
+,(139259,NULL,'https://www.geeksforgeeks.org/count-permutations-produce-positive-result/','2019-07-28 01:29:58.411')
+,(138427,NULL,'https://www.geeksforgeeks.org/heaps-algorithm-for-generating-permutations/','2019-07-28 01:29:58.425')
+,(138179,NULL,'https://www.geeksforgeeks.org/permutations-string-using-iteration/','2019-07-28 01:29:58.440')
+,(286660,NULL,'https://www.geeksforgeeks.org/number-of-ways-to-go-from-one-point-to-another-in-a-grid/','2019-07-28 01:29:59.194')
+,(282541,NULL,'https://www.geeksforgeeks.org/program-to-calculate-the-value-of-npr/','2019-07-28 01:29:59.246')
+,(277162,NULL,'https://www.geeksforgeeks.org/dyck-words-of-given-length/','2019-07-28 01:30:04.191')
+;
+INSERT INTO public.g4g (post_id,category,url,created_at) VALUES 
+(276407,NULL,'https://www.geeksforgeeks.org/number-of-trailing-zeroes-in-base-16-representation-of-n/','2019-07-28 01:30:04.205')
+,(263425,NULL,'https://www.geeksforgeeks.org/maximum-number-of-3-person-teams-formed-from-two-groups/','2019-07-28 01:30:06.254')
+,(221915,NULL,'https://www.geeksforgeeks.org/number-of-handshakes-such-that-a-person-shakes-hands-only-once/','2019-07-28 01:30:22.546')
+,(219566,NULL,'https://www.geeksforgeeks.org/count-number-of-triplets-with-product-equal-to-given-number-with-duplicates-allowed-set-2/','2019-07-28 01:30:22.567')
+,(218015,NULL,'https://www.geeksforgeeks.org/dilworths-theorem/','2019-07-28 01:30:22.578')
+,(208700,NULL,'https://www.geeksforgeeks.org/different-ways-to-represent-n-as-sum-of-k-non-zero-integers/','2019-07-28 01:30:22.604')
+,(180889,NULL,'https://www.geeksforgeeks.org/next-greater-number-basis-precedence-digits/','2019-07-28 01:30:27.549')
+,(179588,NULL,'https://www.geeksforgeeks.org/problem-permutations-combinations-set-2/','2019-07-28 01:30:27.555')
+,(173496,NULL,'https://www.geeksforgeeks.org/combination-permutation-practice-questions/','2019-07-28 01:30:27.575')
+,(171691,NULL,'https://www.geeksforgeeks.org/count-triangles-total-n-points-m-collinear/','2019-07-28 01:30:27.610')
+;
+INSERT INTO public.g4g (post_id,category,url,created_at) VALUES 
+(167861,NULL,'https://www.geeksforgeeks.org/johnson-trotter-algorithm/','2019-07-28 01:30:33.526')
+,(167525,NULL,'https://www.geeksforgeeks.org/telephone-number/','2019-07-28 01:30:33.535')
+,(166004,NULL,'https://www.geeksforgeeks.org/narayana-number/','2019-07-28 01:30:38.321')
+,(164155,NULL,'https://www.geeksforgeeks.org/ways-paint-stairs-two-colors-two-adjacent-not-yellow/','2019-07-28 01:30:38.343')
+,(163530,NULL,'https://www.geeksforgeeks.org/number-ways-get-even-sum-choosing-three-numbers-1-n/','2019-07-28 01:30:38.366')
+,(163319,NULL,'https://www.geeksforgeeks.org/count-ways-express-n-sum-odd-integers/','2019-07-28 01:30:38.388')
+,(161762,NULL,'https://www.geeksforgeeks.org/alexander-bogomolnys-unordered-permutation-algorithm/','2019-07-28 01:30:43.237')
+,(161405,NULL,'https://www.geeksforgeeks.org/combinations-string-digits/','2019-07-28 01:30:43.260')
+,(161369,NULL,'https://www.geeksforgeeks.org/ways-to-select-one-or-more-pairs-from-two-different-sets/','2019-07-28 01:30:43.270')
+,(161011,NULL,'https://www.geeksforgeeks.org/ways-color-3n-board-using-4-colors/','2019-07-28 01:30:43.277')
+;
+INSERT INTO public.g4g (post_id,category,url,created_at) VALUES 
+(160566,NULL,'https://www.geeksforgeeks.org/generate-passwords-given-character-set/','2019-07-28 01:30:43.282')
+,(157925,NULL,'https://www.geeksforgeeks.org/lexicographically-smallest-permutation-1-n-no-position-not-match/','2019-07-28 01:30:45.380')
+,(157108,NULL,'https://www.geeksforgeeks.org/number-bitonic-arrays-length-n-consisting-elements-1-n/','2019-07-28 01:30:45.386')
+,(155723,NULL,'https://www.geeksforgeeks.org/make-combinations-size-k/','2019-07-28 01:30:45.394')
+,(152541,NULL,'https://www.geeksforgeeks.org/get-the-kth-smallest-number-using-the-digits-of-the-given-number/','2019-07-28 01:30:45.429')
+,(146920,NULL,'https://www.geeksforgeeks.org/number-ways-cut-stick-length-n-k-pieces/','2019-07-28 01:30:47.251')
+,(141211,NULL,'https://www.geeksforgeeks.org/rearrange-first-n-numbers-make-k-distance/','2019-07-28 01:30:47.270')
+,(139386,NULL,'https://www.geeksforgeeks.org/number-of-ways-to-make-mobile-lock-pattern/','2019-07-28 01:30:47.296')
+,(139040,NULL,'https://www.geeksforgeeks.org/count-pairs-of-consecutive-zeros/','2019-07-28 01:30:47.307')
+,(137825,NULL,'https://www.geeksforgeeks.org/combinations-with-repetitions/','2019-07-28 01:30:48.677')
+;
+INSERT INTO public.g4g (post_id,category,url,created_at) VALUES 
+(142554,NULL,'https://www.geeksforgeeks.org/generate-binary-permutations-1s-0s-every-point-permutations/','2019-07-28 01:30:48.710')
 ;
