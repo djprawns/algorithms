@@ -24480,4 +24480,73 @@ INSERT INTO public.g4g (post_id,category,url,created_at) VALUES
 ;
 INSERT INTO public.g4g (post_id,category,url,created_at) VALUES 
 (142554,NULL,'https://www.geeksforgeeks.org/generate-binary-permutations-1s-0s-every-point-permutations/','2019-07-28 01:30:48.710')
+,(326515,NULL,'https://www.geeksforgeeks.org/proto-van-emde-boas-tree-set-2-construction/','2019-07-28 02:11:09.755')
+,(326493,NULL,'https://www.geeksforgeeks.org/maximum-number-of-given-operations-to-remove-the-entire-string/','2019-07-28 02:11:09.763')
+,(326396,NULL,'https://www.geeksforgeeks.org/recursive-program-to-find-all-indices-of-a-number/','2019-07-28 02:11:09.769')
+,(325891,NULL,'https://www.geeksforgeeks.org/find-all-combinations-of-two-equal-sum-subsequences/','2019-07-28 02:11:09.775')
+,(325703,NULL,'https://www.geeksforgeeks.org/subtraction-of-the-alternate-nodes-of-linked-list/','2019-07-28 02:11:09.781')
+,(325167,NULL,'https://www.geeksforgeeks.org/wedderburn-etherington-number/','2019-07-28 02:11:09.788')
+,(324608,NULL,'https://www.geeksforgeeks.org/print-binary-search-tree-in-min-max-fashion/','2019-07-28 02:11:09.794')
+,(324474,NULL,'https://www.geeksforgeeks.org/burn-the-binary-tree-starting-from-the-target-node/','2019-07-28 02:11:09.799')
+,(323942,NULL,'https://www.geeksforgeeks.org/all-unique-combinations-whose-sum-equals-to-k/','2019-07-28 02:11:09.806')
+;
+INSERT INTO public.g4g (post_id,category,url,created_at) VALUES 
+(324128,NULL,'https://www.geeksforgeeks.org/convert-a-string-to-an-integer-using-recursion/','2019-07-28 02:11:09.812')
+,(323652,NULL,'https://www.geeksforgeeks.org/bottom-up-traversal-of-a-trie/','2019-07-28 02:11:09.818')
+,(323628,NULL,'https://www.geeksforgeeks.org/search-in-a-trie-recursively/','2019-07-28 02:11:09.824')
+,(316316,NULL,'https://www.geeksforgeeks.org/types-of-recursions/','2019-07-28 02:11:13.904')
+,(285606,NULL,'https://www.geeksforgeeks.org/programs-for-printing-pyramid-patterns-using-recursion/','2019-07-28 02:11:21.591')
+,(274014,NULL,'https://www.geeksforgeeks.org/program-for-power-of-a-complex-number-in-olog-n/','2019-07-28 02:11:21.656')
+,(263948,NULL,'https://www.geeksforgeeks.org/recursive-program-to-print-all-numbers-less-than-n-which-consist-of-digits-1-or-3-only/','2019-07-28 02:11:23.825')
+,(262896,NULL,'https://www.geeksforgeeks.org/count-all-sub-sequences-having-product/','2019-07-28 02:11:23.836')
+,(261370,NULL,'https://www.geeksforgeeks.org/print-all-subsequences-of-a-string-using-arraylist/','2019-07-28 02:11:23.845')
+,(260711,NULL,'https://www.geeksforgeeks.org/recursive-program-for-binary-to-decimal/','2019-07-28 02:11:23.851')
+;
+INSERT INTO public.g4g (post_id,category,url,created_at) VALUES 
+(257912,NULL,'https://www.geeksforgeeks.org/recursive-program-to-print-all-subsets-with-given-sum/','2019-07-28 02:11:25.969')
+,(252512,NULL,'https://www.geeksforgeeks.org/check-if-item-can-be-measured-using-a-scale-and-some-weights/','2019-07-28 02:11:25.992')
+,(247609,NULL,'https://www.geeksforgeeks.org/number-of-blocks-in-a-chessboard-a-knight-can-move-to-in-exactly-k-moves/','2019-07-28 02:11:26.016')
+,(241520,NULL,'https://www.geeksforgeeks.org/count-unary-numbers-in-a-range/','2019-07-28 02:11:26.030')
+,(232512,NULL,'https://www.geeksforgeeks.org/product-of-2-numbers-using-recursion-set-2/','2019-07-28 02:11:32.378')
+,(223280,NULL,'https://www.geeksforgeeks.org/tail-recursion-to-calculate-sum-of-array-elements/','2019-07-28 02:11:34.598')
+,(222472,NULL,'https://www.geeksforgeeks.org/reduce-a-number-to-1-by-performing-given-operations/','2019-07-28 02:11:34.613')
+,(168163,NULL,'https://www.geeksforgeeks.org/program-print-upto-100-without-using-loops/','2019-07-28 02:11:34.641')
+,(190843,NULL,'https://www.geeksforgeeks.org/single-line-command-gcd-n-integers/','2019-07-28 02:11:34.647')
+,(189388,NULL,'https://www.geeksforgeeks.org/print-sequences-starting-n-consecutive-difference-limited-k/','2019-07-28 02:11:38.286')
+;
+INSERT INTO public.g4g (post_id,category,url,created_at) VALUES 
+(185417,NULL,'https://www.geeksforgeeks.org/recursion-practice-problems-solutions/','2019-07-28 02:11:40.379')
+,(170648,NULL,'https://www.geeksforgeeks.org/product-2-numbers-using-recursion/','2019-07-28 02:11:41.831')
+,(168137,NULL,'https://www.geeksforgeeks.org/program-convert-binary-code-equivalent-gray-code-using-recursion/','2019-07-28 02:11:41.853')
+,(167703,NULL,'https://www.geeksforgeeks.org/sum-digit-number-using-recursion/','2019-07-28 02:11:41.859')
+,(167552,NULL,'https://www.geeksforgeeks.org/decimal-binary-number-using-recursion/','2019-07-28 02:11:41.865')
+,(166249,NULL,'https://www.geeksforgeeks.org/sum-of-natural-numbers-using-recursion/','2019-07-28 02:11:41.876')
+,(161349,NULL,'https://www.geeksforgeeks.org/minimum-tiles-of-sizes-in-powers-of-two-to-cover-whole-area/','2019-07-28 02:11:44.832')
+,(158483,NULL,'https://www.geeksforgeeks.org/recursive-tower-hanoi-using-4-pegs-rods/','2019-07-28 02:11:44.852')
+,(157251,NULL,'https://www.geeksforgeeks.org/all-possible-binary-numbers-of-length-n-with-equal-sum-in-both-halves/','2019-07-28 02:11:44.865')
+,(156422,NULL,'https://www.geeksforgeeks.org/check-destination-reachable-source-two-movements-allowed/','2019-07-28 02:11:44.872')
+;
+INSERT INTO public.g4g (post_id,category,url,created_at) VALUES 
+(156145,NULL,'https://www.geeksforgeeks.org/count-ways-express-number-sum-powers/','2019-07-28 02:11:44.887')
+,(155002,NULL,'https://www.geeksforgeeks.org/mutual-recursion-example-hofstadter-female-male-sequences/','2019-07-28 02:11:44.902')
+,(140498,NULL,'https://www.geeksforgeeks.org/recursion/','2019-07-28 02:11:48.515')
+,(139412,NULL,'https://www.geeksforgeeks.org/print-sums-subsets-given-set/','2019-07-28 02:11:48.553')
+,(139400,NULL,'https://www.geeksforgeeks.org/print-all-possible-expressions-that-evaluate-to-a-target/','2019-07-28 02:11:48.559')
+,(138743,NULL,'https://www.geeksforgeeks.org/find-all-even-length-binary-sequences-with-same-sum-of-first-and-second-half-bits/','2019-07-28 02:11:50.022')
+,(138707,NULL,'https://www.geeksforgeeks.org/print-all-n-digit-strictly-increasing-numbers/','2019-07-28 02:11:50.031')
+,(142595,NULL,'https://www.geeksforgeeks.org/identify-all-grand-parent-nodes-of-each-node-in-a-map/','2019-07-28 02:11:50.036')
+,(135611,NULL,'https://www.geeksforgeeks.org/print-a-pattern-without-using-any-loop/','2019-07-28 02:11:50.063')
+,(26041,NULL,'https://www.geeksforgeeks.org/output-of-c-program-set-18-3/','2019-07-28 02:11:53.203')
+;
+INSERT INTO public.g4g (post_id,category,url,created_at) VALUES 
+(15391,NULL,'https://www.geeksforgeeks.org/practice-questions-for-recursion-set-7/','2019-07-28 02:11:53.213')
+,(14124,NULL,'https://www.geeksforgeeks.org/practice-questions-for-recursion-set-6/','2019-07-28 02:11:53.219')
+,(11559,NULL,'https://www.geeksforgeeks.org/practice-questions-for-recursion-set-5/','2019-07-28 02:11:53.224')
+,(9154,NULL,'https://www.geeksforgeeks.org/recursive-functions/','2019-07-28 02:11:53.230')
+,(8953,NULL,'https://www.geeksforgeeks.org/practice-questions-for-recursion-set-4/','2019-07-28 02:11:53.236')
+,(8095,NULL,'https://www.geeksforgeeks.org/practice-questions-for-recursion-set-3/','2019-07-28 02:11:53.241')
+,(7553,NULL,'https://www.geeksforgeeks.org/practice-questions-for-recursion-set-2/','2019-07-28 02:11:53.248')
+,(6941,NULL,'https://www.geeksforgeeks.org/practice-questions-for-recursion/','2019-07-28 02:11:53.254')
+,(33,NULL,'https://www.geeksforgeeks.org/program-for-sum-the-digits-of-a-given-number/','2019-07-28 02:11:54.744')
+,(36,NULL,'https://www.geeksforgeeks.org/how-will-you-print-numbers-from-1-to-200-without-using-loop/','2019-07-28 02:11:54.750')
 ;
